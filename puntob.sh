@@ -1,9 +1,8 @@
-cd ansible/       
-git clone https://github.com/upszot/UTN-FRA_SO_Ansible.git
-cd UTN-FRA_SO_Ansible/
-cd ejemplo_01
+mkdir ansible
+cd ansible       
 ip address show
 ssh-keygen
+passphrase:1234
 cat ~/.ssh/id_rsa.pub
 
 --pasos del host--
